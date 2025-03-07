@@ -1,0 +1,64 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+bun.lock
+bun.lockb
+
+# TypeScript compiled output
+dist/
+build/
+*.tsbuildinfo
+
+# Debug logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Editor directories and files
+.idea
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional npm cache directory
+.npm
+
+# Coverage directory
+coverage/
+
+# Puppeteer browser data
+.cache/
+.local-chromium/
+
+# Local testing/development data
+data/
+.tmp/
+
+# Production bundle
+*.bundle.js
