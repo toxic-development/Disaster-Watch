@@ -102,7 +102,7 @@ export async function sendUpdateToDiscord(
         if (update.fullContent) {
             embed.fields?.push({
                 name: 'Detailed Information',
-                value: 'Full update details available in the dashboard',
+                value: 'Full update details available in the [dashboard](https://disaster.ipswich.qld.gov.au/)',
                 inline: true
             });
         }
